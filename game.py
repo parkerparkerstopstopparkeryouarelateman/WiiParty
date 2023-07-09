@@ -30,5 +30,5 @@ class Game:
         return results
 
     def score(self, player):
-        return 0.005 * (self.skill * randint(1,player.rating) + self.luck * randint(1,player.luckiness))
+        return 0.005 * (self.skill * random() * player.rating + self.luck * random() * (player.luckiness + 100))
             

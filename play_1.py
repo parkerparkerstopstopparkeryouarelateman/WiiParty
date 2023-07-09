@@ -22,13 +22,13 @@ def main():
     """Make a jazz noise here"""
 
     args = get_args()
-    game = Game("Default", skill=0.8)
+    game = Game("Default", skill=80)
 
     p1 = Player("Bob")
     p2 = Player("Sandy", rating=90)
     p3 = Player("Ken", rating=98)
     p4 = Player("Dan", rating=94)
-    p2.set_property("luck",35)
+    p2.set_property("luckiness", 5)
     print(p1)
     print(p2)
     print(p3)

@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-"""
-Author:  
-Purpose: gaming actions
-"""
-
-from random import randint, random
+from random import randint
 
 # function to roll a d-sided die n times 
 def roll(n, d):
